@@ -17,5 +17,8 @@ O exemplo conta com os seguintes recursos (para entender seus funcionamentos):
 ### API utilizada
 Foi utilizada para o exemplo a API [OpenWeatherMap](https://openweathermap.org) (acesse para obter uma key)
 
+### Retrofit
+<p align="justify">A página oficial da API Retrofit pode ser vista <a href="https://square.github.io/retrofit/">aqui</a>, onde contém toda a sua documentação, dicas de utilização e exemplos de códigos. Verifique a documentação caso queira executar buscas dinâmicas dentro de uma API utilizando a sua aplicação cliente.</p>
+
 ### Licença
 Este repositório está disponível sob a licença [Mozilla Public License, version 2.0](https://github.com/jhonatasrm/exemplo-consulta-API-usando-Retrofit/blob/master/LICENSE)
