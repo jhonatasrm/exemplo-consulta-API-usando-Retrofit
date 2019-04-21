@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Exemplo consulta API com Retrofit</string>
+    <string name="windSpeed">Velocidade do vento:</string>
+    <string name="description">Descrição:</string>
+    <string name="title">Clima na cidade</string>
+    <string name="tempMin">Temperatura mínima:</string>
+    <string name="tempMax">Temperatura máxima:</string>
+    <string name="temperature">Temperatura:</string>
+    <string name="mph">mph</string>
+    <string name="percentage">%</string>
+    <string name="atmosfere">Pressão atmosférica:</string>
+    <string name="hpa">hPa</string>
+    <string name="k">ºK</string>
+    <string name="loading">Carregando ...</string>
+    <string name="humidity">Humidade:</string>
+    <string name="weather">Clima:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="latitude">Latitude:</string>
+</resources>

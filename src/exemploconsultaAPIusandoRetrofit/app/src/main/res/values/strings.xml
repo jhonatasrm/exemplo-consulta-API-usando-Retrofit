@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Example API query with Retrofit</string>
+    <string name="latitude">Latitude:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="weather">Weather:</string>
+    <string name="mph">mph</string>
+    <string name="windSpeed">Wind speed:</string>
+    <string name="description">Description:</string>
+    <string name="title">Weather in city</string>
+    <string name="tempMin">Minimum temperature:</string>
+    <string name="tempMax">Maximum temperature:</string>
+    <string name="temperature">Temperature:</string>
+    <string name="percentage">%</string>
+    <string name="atmosfere">Atmospheric pressure:</string>
+    <string name="humidity">Humidity:</string>
+    <string name="hpa">hPa</string>
+    <string name="k">ºK</string>
+    <string name="loading">Loading ...</string>
+</resources>
