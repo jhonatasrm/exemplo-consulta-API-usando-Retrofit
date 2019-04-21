@@ -8,7 +8,7 @@ O exemplo conta com os seguintes recursos (para entender seus funcionamentos):
 * Uso do arquivo strings.xml para utilizar outros idiomas dentro do aplicativo (conforme o idioma do celular)
 * Fixar orientação da tela (AndroidManifest.xml)
 * Utilização da API Retrofit para consumir serviços de uma API on-line 
-* Exibir os resultados da busca de dados de um API on-line
+* Exibir os resultados da busca de dados de uma API on-line
 
 
 <img src="screenRecord.gif" alt="screenRecord" width="200" height="400"/>
