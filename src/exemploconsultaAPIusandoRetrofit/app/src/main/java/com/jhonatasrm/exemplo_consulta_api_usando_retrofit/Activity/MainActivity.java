@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
     private ProgressBar progressBar;
     private LinearLayout linear1, linear2, linear3, linear4, linear5, linear6, linear8, linear7, linear9, linear10;
 
+    // método onCreate
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         intitializeFinds();
         setTitle(R.string.title);
 
+        // inicialização do Retrofit
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("https://samples.openweathermap.org/data/2.5/")
                 .addConverterFactory(GsonConverterFactory.create())
@@ -52,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    // método para buscar na API 
     public void getWeather() {
         Call<JsonObject> call = jsonPlaceHolderAPI.getWeather();
         call.enqueue(new Callback<JsonObject>() {
@@ -93,6 +96,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    // incializa os findViewById
     public void intitializeFinds() {
         city = findViewById(R.id.city);
         weather = findViewById(R.id.weather);
@@ -119,6 +123,7 @@ public class MainActivity extends AppCompatActivity {
         loading = findViewById(R.id.loading);
     }
 
+    // caso não for possivel carregar o campo apresenta erro
     public void fail() {
         city.setText("Falha ao carregar");
         weather.setText("Falha ao carregar");
