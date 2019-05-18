@@ -44,14 +44,8 @@ public class MainActivity extends AppCompatActivity {
 
         jsonPlaceHolderAPI = retrofit.create(JsonPlaceHolderAPI.class);
         timeAnimation = getResources().getInteger(android.R.integer.config_longAnimTime);
-
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                getWeather();
-            }
-        }).start();
-
+        
+        getWeather();
     }
 
     // método para buscar na API 
